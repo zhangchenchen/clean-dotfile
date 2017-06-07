@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Shortcuts
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ~='cd ~'
+
+
+
+alias ll='ls -lh --time-style long-iso --color' 
+alias la='ls -Alh --time-style long-iso --color' 
+# list file by size, lbys = ls by size
+alias lbys='ls -alhS'
+# list file by time, lbyt = ls by time
+alias lbyt='ls -alht'
+
