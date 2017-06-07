@@ -21,7 +21,7 @@ fi
 
 # we can source the dotfiles (order matters)
 
-for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,alias,completion,grep,prompt}; do
+for DOTFILE in "$DOTFILES_DIR"/system/.{func,function_*,inputrc,env,alias,completion,grep,prompt}; do
   [ -f "$DOTFILE" ] && . "$DOTFILE"
 done
 
