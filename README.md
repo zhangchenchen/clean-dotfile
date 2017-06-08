@@ -4,7 +4,7 @@
 
 各dotfile使用以及说明如下：
 
-## 一， system dotfile
+## 1 system dotfile
 
 #### 1.1使用
 
@@ -36,7 +36,7 @@ $ ln -sbv ~/.dotfiles/system/.inputrc ~
    ![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
 
 
-## 二，vim dotfile
+## 2 vim dotfile
 
 本来是想把这个[repo](https://github.com/amix/vimrc)拉过来做submodule，看了一下，感觉内容还是太多。就分了两个版本，一个basic-version，就是上述repo中的basic-version。自己加了一个plugin-version，添加了一些自己常用的插件。
 
@@ -76,15 +76,15 @@ $ vim +PluginInstall +qall
 ![tagbar](http://7xrnwq.com1.z0.glb.clouddn.com/2017-06-08tagbar.png)
 
 
-## 三，tmux dotfile
+## 3 tmux dotfile
 
-####3.1 使用
+#### 3.1 使用
 
 安装tmux后，将tmux目录下的[.tmux.conf](https://github.com/zhangchenchen/clean-dotfile/blob/master/tmux/tmux.conf) 覆盖（或软链接）根目录下.tmux.conf。
 注：RH系类需要覆盖（或软链接）/etc/tmux.conf
 
 
-####3.2 说明
+#### 3.2 说明
 
 改动比较小
 
