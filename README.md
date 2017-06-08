@@ -33,7 +33,8 @@ $ ln -sbv ~/.dotfiles/system/.inputrc ~
 - .inputrc: 键盘布局，直接引用[inputrc](https://github.com/webpro/dotfiles/blob/master/runcom/.inputrc)
 - .env: 环境变量配置。
 - .func: 一些自定义函数，比如 mkd test 会创建 test目录并进入该目录。
-- .prompt: prompt设置。生效后效果如![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
+- .prompt: prompt设置。
+生效后效果如![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
 
 
 ## vim dotfile
