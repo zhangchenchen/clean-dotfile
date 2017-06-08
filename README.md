@@ -1,5 +1,3 @@
-# clean-dotfile
-
 总结了一下自己使用linux以来经常使用的一些custom configation, 结合网上的[awesome dotfile](https://github.com/webpro/awesome-dotfiles),建了此 repo,以便更换开发环境时随时all-in。
 
 主要包括系统dotfile(位于system目录下),vim dotfile(位于vim目录下)，tmux dotfile(位于tmux目录下)。
@@ -33,9 +31,8 @@ $ ln -sbv ~/.dotfiles/system/.inputrc ~
 - .inputrc: 键盘布局，直接引用[inputrc](https://github.com/webpro/dotfiles/blob/master/runcom/.inputrc)
 - .env: 环境变量配置。
 - .func: 一些自定义函数，比如 mkd test 会创建 test目录并进入该目录。
-- .prompt: prompt设置。
-
-生效后效果如![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
+- .prompt: prompt设置,生效后效果如下：
+![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
 
 
 ## vim dotfile
