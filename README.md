@@ -1,4 +1,4 @@
-总结了一下自己使用linux以来经常使用的一些custom configation, 结合网上的[awesome dotfile](https://github.com/webpro/awesome-dotfiles),建了此 repo,以便更换开发环境时随时all-in。
+总结了一下自己使用linux以来经常使用的一些custom configuration, 结合网上的[awesome dotfile](https://github.com/webpro/awesome-dotfiles),建了此 repo,以便更换开发环境时随时all-in。
 
 主要包括系统dotfile(位于system目录下),vim dotfile(位于vim目录下)，tmux dotfile(位于tmux目录下)。
 
@@ -14,7 +14,7 @@ $ git clone https://github.com/zhangchenchen/clean-dotfile.git ~/.dotfiles
 $ source ~/.dotfiles/system/.bash_profile
 ```
 
-如果想长期生效的话（重启后仍可用），可以将这些system dotfile 覆盖到根目录下，不过建议使用软连接的方式，如下：
+如果想长期生效的话（重连后仍可用），可以将这些system dotfile 覆盖到根目录下，不过建议使用软连接的方式，如下：
 
 ```bash
 $ ln -sbv ~/.dotfiles/system/.bash_profile ~
@@ -33,7 +33,7 @@ $ ln -sbv ~/.dotfiles/system/.inputrc ~
 - .func: 一些自定义函数，比如 mkd test 会创建 test目录并进入该目录。
 - .prompt: prompt设置,生效后效果如下：
 
-![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
+   ![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
 
 
 ## vim dotfile
@@ -67,9 +67,13 @@ $ vim +PluginInstall +qall
 
 #### 说明
 
-- basic-version:
+- basic-version: vim的基本配置（比如显示行号，显示状态号等），以及自定义的快捷键（文件保存等）。
+- plugin-version：插件包括项目浏览[Nerdtree](https://github.com/scrooloose/nerdtree),文件模糊查询[CtrlP](https://github.com/kien/ctrlp.vim),代码补全 [YouCompleteMe](https://github.com/Valloric/YouCompleteMe),语法检查 [Syntastic](https://github.com/vim-syntastic/syntastic),tag窗口[TagBar](https://github.com/majutsushi/tagbar)。几张截图如下：
 
 
+![nredtree](http://7xrnwq.com1.z0.glb.clouddn.com/2017-06-08nerdtree.png)
+
+![tagbar](http://7xrnwq.com1.z0.glb.clouddn.com/2017-06-08tagbar.png)
 
 
 ## tmux dotfile
