@@ -55,7 +55,7 @@ $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ```bash
 $ yum upgrade -y 
-$ yum install ctags.x86_64 # for ubuntu use 'apt-get install exuberant-ctags'
+$ yum install ctags # for ubuntu use 'apt-get install exuberant-ctags'
 ```
 
 安装插件：
