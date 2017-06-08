@@ -32,10 +32,43 @@ $ ln -sbv ~/.dotfiles/system/.inputrc ~
 - .env: 环境变量配置。
 - .func: 一些自定义函数，比如 mkd test 会创建 test目录并进入该目录。
 - .prompt: prompt设置,生效后效果如下：
+
 ![prompt](http://7xrnwq.com1.z0.glb.clouddn.com/2016-06-08prompt1.png)
 
 
 ## vim dotfile
+
+本来是想把这个[repo](https://github.com/amix/vimrc)拉过来做submodule，看了一下，感觉内容还是太多。就分了两个版本，一个basic-version，就是上述repo中的basic-version。自己加了一个plugin-version，添加了一些自己常用的插件。
+
+#### 使用
+
+- basic-version使用比较简单，直接将该目录下的[.vimrc](https://github.com/zhangchenchen/clean-dotfile/blob/master/vim/basic-version/.vimrc)覆盖（或软链接）根目录下.vimrc。
+- plugin-version版本，首先安装插件管理vundle，然后配置并安装插件。
+
+```bash
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+然后将该目录下的[.vimrc](https://github.com/zhangchenchen/clean-dotfile/blob/master/vim/plugin-version/.vimrc)覆盖（或软链接）根目录下.vimrc。
+
+因为 插件Tagbar依赖ctag包，这里可能还需要安装ctag.
+
+```bash
+$ yum upgrade -y 
+$ yum install ctags.x86_64 # for ubuntu use 'apt-get install exuberant-ctags'
+```
+
+安装插件：
+
+```bash
+$ vim +PluginInstall +qall
+```
+
+
+#### 说明
+
+- basic-version:
+
 
 
 

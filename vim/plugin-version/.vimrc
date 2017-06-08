@@ -298,8 +298,8 @@ nmap <F2> :NERDTreeToggle<CR>
 """"""""""""""""""""""""""""""
 let g:tagbar_width=35
 let g:tagbar_autofocus=1
-let g:tagbar_ctags_bin ='/usr/local/bin/ctags'
-nmap <leader>c :TagbarToggle<CR>
+let g:tagbar_ctags_bin ='/usr/bin/ctags'
+nmap <F3> :TagbarToggle<CR> 
 
 
 
