@@ -3,7 +3,7 @@ a set of dotfile, including bash vim tmux etc. keep simple & clean.
 
 ## 1 System dotfile
 
-#### 1.1 Use
+#### 1.1 Install
 
 ```bash
 $ git clone https://github.com/zhangchenchen/clean-dotfile.git ~/.dotfiles
@@ -39,7 +39,7 @@ $ ln -sbv ~/.dotfiles/system/.inputrc ~
 
 I was thinking make a submodule with this [repo](https://github.com/amix/vimrc) first, but there were too much complicated things。So, divide into two versions,basic-version just like basic-version from this [repo](https://github.com/amix/vimrc), i added a plugin-version which installed several frequentldy used plugins. 
 
-#### 2.1 Use
+#### 2.1 Install
 
 - basic-version: easy to use. 
 
@@ -87,7 +87,7 @@ $ vim +PluginInstall +qall
 
 ## 3 Tmux dotfile
 
-#### 3.1 Use
+#### 3.1 Install
 
 Just make a soft link:
 
