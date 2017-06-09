@@ -1,3 +1,4 @@
+## [中文版本](https://github.com/zhangchenchen/clean-dotfile)
 a set of dotfile, including bash vim tmux etc. keep simple & clean.
 
 ## 1 system dotfile
