@@ -23,7 +23,7 @@ $ ln -sbv ~/.dotfiles/system/.inputrc ~
 #### 1.2 Instruction
 
 - .bash_profile:load first, search other dotfile and activate.
-- .alias: as the word says.
+- .alias: as the name suggests.
  
 ![alias](http://7xrnwq.com1.z0.glb.clouddn.com/2017-06-08alias.png)
 
