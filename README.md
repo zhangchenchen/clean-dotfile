@@ -1,4 +1,4 @@
-## [中文版本](https://github.com/zhangchenchen/clean-dotfile)
+## [中文版本](https://github.com/zhangchenchen/clean-dotfile/blob/master/README_ZH_CN.md)
 a set of dotfile, including bash vim tmux etc. keep simple & clean.
 
 ## 1 System dotfile
