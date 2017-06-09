@@ -1,3 +1,5 @@
+
+[English version]()
 总结了一下自己使用linux以来经常使用的一些custom configuration, 结合网上的[awesome dotfile](https://github.com/webpro/awesome-dotfiles),建了此 repo,以便更换开发环境时随时all-in。
 
 主要包括系统dotfile(位于system目录下),vim dotfile(位于vim目录下)，tmux dotfile(位于tmux目录下)。
