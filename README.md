@@ -1,3 +1,16 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [中文版本](#)
+- [1 System dotfile](#)
+        - [1.1 Install](#)
+        - [1.2 Instruction](#)
+- [2 VIM dotfile](#)
+        - [2.1 Install](#)
+        - [2.2 Instruction](#)
+- [3 Tmux dotfile](#)
+        - [3.1 Install](#)
+        - [3.2 Instruction](#)
+
 ## [中文版本](https://github.com/zhangchenchen/clean-dotfile/blob/master/README_ZH_CN.md)
 a set of dotfile, including bash vim tmux etc. keep simple & clean.
 
